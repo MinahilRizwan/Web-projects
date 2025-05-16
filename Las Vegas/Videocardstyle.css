@@ -1,0 +1,59 @@
+.video-card {
+    position: relative;
+    width: 400px; 
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: 0.8rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .header {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 30px; 
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .verified-badge {
+    color: white; 
+    margin-left: 5px;
+    border-radius:50%;
+    border: 1px solid #0095f6 ;
+    background-color: #0095f6;
+    padding: 1px;
+    font-size: 12px;
+  }
+  
+  .video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; 
+  }
+  
+  .text-overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    color: white;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  .caption {
+    font-size: 18px; 
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .sub-caption {
+    font-size: 14px; 
+    margin: 5px 0 0;
+  }
+  
