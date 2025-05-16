@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Patrick Hand';
+  src: url('C:/USERS/PMYLS/APPDATA/LOCAL/MICROSOFT/WINDOWS/FONTS/PATRICKHAND-REGULAR.TTF') format('truetype');
+  font-family: 'Genty Demo';
+  src: url('C:/USERS/PMYLS/APPDATA/LOCAL/MICROSOFT/WINDOWS/FONTS/GENTYDEMO-REGULAR.TTF') format('truetype'); /* Adjust the path and format as necessary */
+}
+#root {
+  
+  margin: 0 auto;
+  padding: 0;
+  
+}
+body {
+  font-family: 'Patrick Hand';
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
